@@ -66,7 +66,7 @@ pnpm install
 
 ### 3. Start development server
 pnpm run dev
-Web will be running at: http://localhost:3000
+- Website will be running at: http://localhost:3000
 
 ---
 
