@@ -61,10 +61,10 @@ This is a movie browsing app built with **ReactJS + TypeScript + SCSS**, as part
 git clone https://github.com/congminhk14/coding_challenges_movies.git
 cd coding_challenges_movies
 
-2. Install dependencies (with pnpm)
+### 2. Install dependencies (with pnpm)
 pnpm install
 
-3. Start development server
+### 3. Start development server
 pnpm run dev
 Web will be running at: http://localhost:3000
 
