@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Coding Challenge – Movies App
 
-## Getting Started
+This is a movie browsing app built with **ReactJS + TypeScript + SCSS**, as part of a frontend coding challenge. It allows users to explore movies from The Movie Database (TMDb), with features like tab navigation, search, list/grid toggle, lazy image loading, infinite scroll, and SSR for detail pages.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features Implemented
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✅ Required Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [x] View list of movies currently playing in theaters
+- [x] Poster images load asynchronously
+- [x] Tab bar for **Now Playing** and **Top Rated** movies
+- [x] Search bar to search movies by title
+- [x] View movie details by clicking a movie card
+- [x] Show loading spinner when fetching API
+- [x] Display error message on network error
+- [x] Simple responsive layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✳️ Optional Features
 
-## Learn More
+- [x] Segmented control to toggle between **list view** and **grid view**
+- [x] Fade-in animation for all images
+- [x] Lazy loading for images (performance optimization)
+- [x] Customized highlight and selection effect on cards
+- [x] Skeleton loading for improved UX
+- [x] Enhanced responsive design for different screen sizes
 
-To learn more about Next.js, take a look at the following resources:
+### 🆕 Additional Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] Infinite scroll to load more movies as user scrolls
+- [x] Server-Side Rendering (SSR) for movie detail pages to support SEO with dynamic metadata
+- [x] Fully responsive layout for desktop, tablet, and mobile screens
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🖥️ Demo Walkthrough
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Walkthrough](https://github.com/congminhk14/coding_challenges_movies/blob/main/assets/video_walkthrough.GIF)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Click [here](https://github.com/congminhk14/coding_challenges_movies/blob/main/assets/video_walkthrough.GIF) if the image doesn't load.
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- ⚛️ ReactJS + TypeScript
+- 🎨 SCSS (no UI frameworks used)
+- 🌐 TMDb API for movie data
+- ⚡️ Vite as the build tool
+- 🌀 React Router for navigation
+- 🔁 Infinite scroll with Intersection Observer
+- 🧱 SSR in Next.js for detail pages and metadata
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+
+git clone https://github.com/congminhk14/coding_challenges_movies.git
+cd coding_challenges_movies
+
+2. Install dependencies (with pnpm)
+pnpm install
+
+3. Start development server
+pnpm run dev
+Web will be running at: http://localhost:3000
+
+---
+
+## 📄 License
+
+Copyright 2024 Trần Công Minh
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
