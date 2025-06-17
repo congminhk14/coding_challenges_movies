@@ -1,0 +1,52 @@
+.movieNotFound {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 16px;
+  padding: 60px 0;
+
+  .iconAlert {
+    width: 40px;
+    height: 40px;
+    color: #ffd111;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .buttonGroup {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    .buttonBack, .buttonRetry {
+      height: 40px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      border: solid 1px #007bff;
+      color: #007bff;
+      cursor: pointer;
+      padding: 0 16px;
+      background: #fff;
+    }
+
+    .buttonRetry {
+      background-color: #007bff;
+      color: #fff;
+    }
+  }
+}
