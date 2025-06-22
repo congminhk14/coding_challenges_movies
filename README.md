@@ -64,7 +64,14 @@ cd coding_challenges_movies
 ### 2. Install dependencies (with pnpm)
 pnpm install
 
-### 3. Start development server
+### 3. Config TMDB_API_KEY
+Create a .env.local file in the root directory of the project.
+Add the following line to the file:
+NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key
+Replace your_tmdb_api_key_here with your actual TMDb API key.
+You can obtain a free API key by creating an account at The Movie Database (TMDb) developer portal: https://developer.themoviedb.org/reference/intro/getting-started
+
+### 4. Start development server
 pnpm run dev
 - Website will be running at: http://localhost:3000
 
